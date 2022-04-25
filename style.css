@@ -145,7 +145,6 @@ padding: 5px;
 
 }
 
-* {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -176,12 +175,21 @@ img {vertical-align: middle;}
     cursor: pointer;
 }
 
-.box{
-    float:left;
-    margin-right:160px;
-    margin-left: 200px;
+
+.video-section{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
 }
 
+.videos{
+    width: 30%;
+    height: 300px;
+    margin: 70px;
+}
 
-
+.videos iframe{
+    position: relative;
+}
   
